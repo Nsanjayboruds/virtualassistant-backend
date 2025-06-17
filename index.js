@@ -12,7 +12,7 @@ const app = express()
 app.use(express.json())
 app.use(cookieParser())
 app.use(cors({
-  origin: "https://candid-valkyrie-97399c.netlify.app",
+  origin: "https://virtualassistant-backend-5892.onrender.com",
   credentials: true
 }));
 app.use("/api/auth",authRouter)
